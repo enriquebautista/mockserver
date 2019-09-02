@@ -1,0 +1,56 @@
+{
+	"statusCode": 0,
+	"statusMessage": "OK",
+	"resultset": {
+		"reminder_types":[
+			{
+				"id":1,
+				"description": "Análisis de sangre",
+				"icon_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_recordatorios_analisis.png?alt=media&token=78b7845d-f357-4491-982d-f074861ab454",
+				"one_time": true,
+				"is_active": true
+			},
+			{
+				"id":2,
+				"description": "Inyección de insulina",
+				"icon_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_recordatorios_inyeccion.png?alt=media&token=974e65c0-a26a-43e9-ac41-07b6b383745c",
+				"one_time": false,
+				"is_active": true
+			},
+			{
+				"id":3,
+				"description": "Pastillas",
+				"icon_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_recordatorios_pastillas.png?alt=media&token=8ff4f2f2-03ad-40df-915c-6bdbbd724123",
+				"one_time": false,
+				"is_active": true
+			}],
+		"news_categories": [{
+			"id": 1,
+			"description": "Alimentación",
+			"icon_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_category.png?alt=media&token=213e7485-2c72-4f7e-ab8a-ec7a63207c81",
+			"backdrop_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_cat_al.png?alt=media&token=88500c02-bbb6-488b-bc5b-ce7adf702d38",
+			"is_active": true
+		},
+		{
+			"id": 2,
+			"description": "Ejercicio",
+			"icon_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_category.png?alt=media&token=213e7485-2c72-4f7e-ab8a-ec7a63207c81",
+			"backdrop_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_cat_al.png?alt=media&token=88500c02-bbb6-488b-bc5b-ce7adf702d38",
+			"is_active": true
+		},
+		{
+			"id": 3,
+			"description": "Psicología",
+			"icon_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_category.png?alt=media&token=213e7485-2c72-4f7e-ab8a-ec7a63207c81",
+			"backdrop_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_cat_al.png?alt=media&token=88500c02-bbb6-488b-bc5b-ce7adf702d38",
+			"is_active": true
+		},
+		{
+			"id": 4,
+			"description": "Investigación",
+			"icon_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_category.png?alt=media&token=213e7485-2c72-4f7e-ab8a-ec7a63207c81",
+			"backdrop_url": "https://firebasestorage.googleapis.com/v0/b/glucosite.appspot.com/o/ic_cat_al.png?alt=media&token=88500c02-bbb6-488b-bc5b-ce7adf702d38",
+			"is_active": true
+		}]
+	}
+}
